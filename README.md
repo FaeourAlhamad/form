@@ -1,7 +1,7 @@
-Form.io Angular JSON Form Renderer
+Angular JSON Form Renderer
 ==========================
 This library serves as a Dynamic JSON Powered Form rendering library for [Angular](https://angular.io). This works by
-providing a JSON schema to a ```<formio>``` Angular component, where that form is dynamically rendered within the front
+providing a JSON schema to a  Angular component, where that form is dynamically rendered within the front
 end application. This allows forms to be dynamically built using JSON schemas.
 
 Angular Versions
@@ -12,14 +12,14 @@ This library supports many different Angular Versions. If you wish to use this l
 Angular 17 versions are currently released as "latest" so you can install with Angular 17 with the following commands.
 
 ### NPM
-    npm install --save @formio/angular
+    npm install --save @form/angular
 
 ### Yarn
-    yarn add --save @formio/angular
+    yarn add --save @form/angular
 
 ## Angular 16
 ### NPM
-    npm install --save @formio/angular@a16
+    npm install --save @form/angular@a16
 
 ### Yarn
-    yarn add --save @formio/angular@a16
+    yarn add --save @form/angular@a16
