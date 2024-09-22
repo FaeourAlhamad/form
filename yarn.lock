@@ -1938,23 +1938,23 @@
   resolved "https://registry.npmjs.org/@foliojs-fork/restructure/-/restructure-2.0.2.tgz#73759aba2aff1da87b7c4554e6839c70d43c92b4"
   integrity sha512-59SgoZ3EXbkfSX7b63tsou/SDGzwUEK6MuB5sKqgVK1/XE0fxmpsOb9DQI8LXW3KfGnAjImCGhhEb7uPPAUVNA==
 
-"@formio/bootstrap@^3.0.0-rc.25":
+"@form/bootstrap@^3.0.0-rc.25":
   version "3.0.0-rc.21-dev.90.e1f0b93"
-  resolved "https://registry.npmjs.org/@formio/bootstrap/-/bootstrap-3.0.0-rc.21-dev.90.e1f0b93.tgz#fd669cecbf4ab2f58ad91d1a67e55dfbcad1d2b7"
+  resolved "https://registry.npmjs.org/@form/bootstrap/-/bootstrap-3.0.0-rc.21-dev.90.e1f0b93.tgz#fd669cecbf4ab2f58ad91d1a67e55dfbcad1d2b7"
   integrity sha512-hNw2XvCU1hzdke42Gos2MnvWbUQjjhLPLPoRAqxEwxzg0lMeR5Xc9wlw1jRhHEwbpvF8c5bBVnnxfX/ilfah4A==
 
-"@formio/choices.js@^10.2.1":
+"@form/choices.js@^10.2.1":
   version "10.2.1"
-  resolved "https://registry.npmjs.org/@formio/choices.js/-/choices.js-10.2.1.tgz#d0f5c032d94f33152b6036f6a5bb42fcc4684e31"
+  resolved "https://registry.npmjs.org/@form/choices.js/-/choices.js-10.2.1.tgz#d0f5c032d94f33152b6036f6a5bb42fcc4684e31"
   integrity sha512-NCE5u7jG3XGokJP16MyAbVSUptKu/mpJYAxd4PPIoLiO/l9Do5uoOQ0MgNb9qG9qABJiOX+qNRE8q8RybY/SwQ==
   dependencies:
     deepmerge "^4.2.2"
     fuse.js "^6.6.2"
     redux "^4.2.0"
 
-"@formio/core@^2.1.0-dev.tt.13":
+"@form/core@^2.1.0-dev.tt.13":
   version "2.1.0-rc.3"
-  resolved "https://registry.npmjs.org/@formio/core/-/core-2.1.0-rc.3.tgz#d2022a66ad7e07e89248899231d406dd179fa812"
+  resolved "https://registry.npmjs.org/@form/core/-/core-2.1.0-rc.3.tgz#d2022a66ad7e07e89248899231d406dd179fa812"
   integrity sha512-/WMbVo1Gda9cIKSak8gUNk8T+MXcYjJ+hHi4XTrBG28c+oQppHDmh4zm2tnBH5YP3elrpaPa917lVdJXa3iqxw==
   dependencies:
     "@types/json-logic-js" "^2.0.5"
@@ -1970,21 +1970,21 @@
     lodash "^4.17.21"
     moment "^2.29.4"
 
-"@formio/deprecated-types@^0.1.0":
+"@form/deprecated-types@^0.1.0":
   version "0.1.0"
-  resolved "https://registry.npmjs.org/@formio/deprecated-types/-/deprecated-types-0.1.0.tgz#e8db67b93a2eded12efd640a10c7ddf0cffa2441"
+  resolved "https://registry.npmjs.org/@form/deprecated-types/-/deprecated-types-0.1.0.tgz#e8db67b93a2eded12efd640a10c7ddf0cffa2441"
   integrity sha512-jNc3Nw55nc75KESg+KPxxdG9ktnERTYodScAx3eh/J2dlA06N2Korafhu9zmwcDis8lOqtEz3X89cVxpJM9MzQ==
 
-"@formio/js@^5.0.0-rc.59":
+"@form/js@^5.0.0-rc.59":
   version "5.0.0-rc.59"
-  resolved "https://registry.npmjs.org/@formio/js/-/js-5.0.0-rc.59.tgz#88f91b88b1200989e4809e921420552f24a2de16"
+  resolved "https://registry.npmjs.org/@form/js/-/js-5.0.0-rc.59.tgz#88f91b88b1200989e4809e921420552f24a2de16"
   integrity sha512-z+x3dDZPA/Bblkyitt+uPiRhY7jSkEwdSrqsg77UajMNZGpnqIefZdBZi9ZknxWQZ5x9S3jIVcLxZWdNb2D1yA==
   dependencies:
-    "@formio/bootstrap" "^3.0.0-rc.25"
-    "@formio/choices.js" "^10.2.1"
-    "@formio/core" "^2.1.0-dev.tt.13"
-    "@formio/text-mask-addons" "^3.8.0-formio.2"
-    "@formio/vanilla-text-mask" "^5.1.1-formio.1"
+    "@form/bootstrap" "^3.0.0-rc.25"
+    "@form/choices.js" "^10.2.1"
+    "@form/core" "^2.1.0-dev.tt.13"
+    "@form/text-mask-addons" "^3.8.0-form.2"
+    "@form/vanilla-text-mask" "^5.1.1-form.1"
     abortcontroller-polyfill "^1.7.5"
     autocompleter "^8.0.4"
     bootstrap "^5.3.3"
@@ -2017,14 +2017,14 @@
     uuid "^9.0.0"
     vanilla-picker "^2.12.3"
 
-"@formio/text-mask-addons@^3.8.0-formio.2":
-  version "3.8.0-formio.2"
-  resolved "https://registry.npmjs.org/@formio/text-mask-addons/-/text-mask-addons-3.8.0-formio.2.tgz#b9489e68911c70a31997b97dd846d8a7cca6abdb"
+"@form/text-mask-addons@^3.8.0-form.2":
+  version "3.8.0-form.2"
+  resolved "https://registry.npmjs.org/@form/text-mask-addons/-/text-mask-addons-3.8.0-form.2.tgz#b9489e68911c70a31997b97dd846d8a7cca6abdb"
   integrity sha512-H4Sm+1Sx59jbrlKxtKbzethhp5OIcP8Oi4JBpsvH/SB8P/KCRmtjKbN5ACqURnXmYtBHLJC6Yr9KZibOVRGxpA==
 
-"@formio/vanilla-text-mask@^5.1.1-formio.1":
-  version "5.1.1-formio.1"
-  resolved "https://registry.npmjs.org/@formio/vanilla-text-mask/-/vanilla-text-mask-5.1.1-formio.1.tgz#f53fc7f4cb37c6ae38f2857488055e781e5adba9"
+"@form/vanilla-text-mask@^5.1.1-form.1":
+  version "5.1.1-form.1"
+  resolved "https://registry.npmjs.org/@form/vanilla-text-mask/-/vanilla-text-mask-5.1.1-form.1.tgz#f53fc7f4cb37c6ae38f2857488055e781e5adba9"
   integrity sha512-rYBlvIPMNUd6sAaduOaiIwI4vfTAjHDRonko2qJn2RP1O//TQ7rcFIPYVYePJZ4OtOpwHiHAvAIh79McphZotQ==
 
 "@inquirer/checkbox@^2.3.7":

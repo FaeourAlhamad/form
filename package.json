@@ -1,24 +1,24 @@
 {
-  "name": "@formio/angular",
+  "name": "@form/angular",
   "version": "8.0.0-rc.3",
   "scripts": {
     "ng": "ng",
-    "build": "ng build angular-formio",
-    "build:watch": "ng build angular-formio --watch",
-    "build:prod": "ng build angular-formio --configuration production",
+    "build": "ng build angular-form",
+    "build:watch": "ng build angular-form --watch",
+    "build:prod": "ng build angular-form --configuration production",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n angular-formio -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.json -n angular-form -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
-    "publish": "npm run build:prod && npm publish ./dist/angular-formio --tag=8x",
-    "publish:latest": "npm run build:prod && npm publish ./dist/angular-formio",
+    "publish": "npm run build:prod && npm publish ./dist/angular-form --tag=8x",
+    "publish:latest": "npm run build:prod && npm publish ./dist/angular-form",
     "test": "ng test",
     "lint": "ng lint",
-    "postinstall": "node -e 'var fs=require(`fs`);var fname=`./projects/angular-formio/package.json`;var pjson=require(fname);pjson.version=require(`./package.json`).version;fs.writeFileSync(fname,JSON.stringify(pjson,null, 2))'"
+    "postinstall": "node -e 'var fs=require(`fs`);var fname=`./projects/angular-form/package.json`;var pjson=require(fname);pjson.version=require(`./package.json`).version;fs.writeFileSync(fname,JSON.stringify(pjson,null, 2))'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/formio/angular-formio"
+    "url": "https://github.com/form/angular-form"
   },
   "author": {
     "name": "Travis Tidwell",
@@ -29,7 +29,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/formio/angular-formio/issues"
+    "url": "https://github.com/form/angular-form/issues"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -47,8 +47,8 @@
     "@angular/platform-browser-dynamic": "^18.1.2",
     "@angular/router": "^18.1.2",
     "@compodoc/compodoc": "^1.1.25",
-    "@formio/deprecated-types": "^0.1.0",
-    "@formio/js": "^5.0.0-rc.59",
+    "@form/deprecated-types": "^0.1.0",
+    "@form/js": "^5.0.0-rc.59",
     "@types/jasmine": "^5.1.4",
     "@types/jasminewd2": "^2.0.13",
     "@types/node": "^22.0.0",

@@ -1,0 +1,8 @@
+<div role="form" [attr.aria-label]="label">
+  <div *ngIf="isLoading && !hideLoading" style="position:relative;height:200px">
+    <form-loader [isLoading]="isLoading"></form-loader>
+  </div>
+  <form-alerts *ngIf="this.options.alertsPosition === AlertsPosition.top || this.options.alertsPosition === AlertsPosition.both" (focusComponent)="focusOnComponet($event)" [alerts]="alerts"></form-alerts>
+  <div #form></div>
+  <form-alerts *ngIf="this.options.alertsPosition === AlertsPosition.bottom || this.options.alertsPosition === AlertsPosition.both" (focusComponent)="focusOnComponet($event)" [alerts]="alerts"></form-alerts>
+</div>

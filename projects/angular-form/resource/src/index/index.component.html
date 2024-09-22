@@ -1,0 +1,10 @@
+<form-alerts [alerts]="service.alerts"></form-alerts>
+<form-grid
+  [src]="gridSrc"
+  [query]="gridQuery"
+  [onForm]="service.formLoaded"
+  (rowSelect)="onSelect($event)"
+  (error)="service.onError($event)"
+  (createItem)="onCreateItem()"
+  [createText]="createText"
+></form-grid>

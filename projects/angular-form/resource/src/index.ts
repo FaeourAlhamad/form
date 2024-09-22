@@ -1,0 +1,11 @@
+export { formResourceConfig } from './resource.config';
+export { formResources } from './resources.service';
+export { formResourceService } from './resource.service';
+export { formResourceComponent } from './resource.component';
+export { formResourceViewComponent } from './view/view.component';
+export { formResourceEditComponent } from './edit/edit.component';
+export { formResourceDeleteComponent } from './delete/delete.component';
+export { formResourceCreateComponent } from './create/create.component';
+export { formResourceIndexComponent } from './index/index.component';
+export { formResourceRoutes } from './resource.routes';
+export { formResource } from './resource.module';

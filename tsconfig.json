@@ -17,23 +17,23 @@
       "dom"
     ],
     "paths": {
-      "@formio/angular": [
-        "./projects/angular-formio/src"
+      "@form/angular": [
+        "./projects/angular-form/src"
       ],
-      "@formio/angular/grid": [
-        "./projects/angular-formio/grid/src"
+      "@form/angular/grid": [
+        "./projects/angular-form/grid/src"
       ],
-      "@formio/angular/auth": [
-        "./projects/angular-formio/auth/src"
+      "@form/angular/auth": [
+        "./projects/angular-form/auth/src"
       ],
-      "@formio/angular/manager": [
-        "./projects/angular-formio/manager/src"
+      "@form/angular/manager": [
+        "./projects/angular-form/manager/src"
       ],
-      "@formio/angular/resource": [
-        "./projects/angular-formio/resource/src"
+      "@form/angular/resource": [
+        "./projects/angular-form/resource/src"
       ],
-      "@formio/angular/embed": [
-        "./projects/angular-formio/embed/src"
+      "@form/angular/embed": [
+        "./projects/angular-form/embed/src"
       ]
     }
   }

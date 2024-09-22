@@ -1,0 +1,7 @@
+<form
+  [renderer]="service.config.renderer"
+  [src]="service.form.submissionUrl"
+  (submit)="onSubmit($event)"
+  (formLoad)="service.setForm($event)"
+  (submissionLoad)="service.submissionLoaded($event)"
+></form>

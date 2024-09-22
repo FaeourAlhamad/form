@@ -14,7 +14,7 @@ Please provide as many details as you can:
   - [x] Form.io
   - [ ] Local deployment
     - Version: 
-- Formio.js version:
+- form.js version:
 - Frontend framework:
 - Browser:
 - Browser version:

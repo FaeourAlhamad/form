@@ -81,7 +81,7 @@ jobs:
 
       - name: Show build directory contents
         run: |
-          ls -R ./dist/angular-formio
+          ls -R ./dist/angular-form
   
       - name: Cache dist directory
         uses: actions/cache@v3
@@ -185,12 +185,12 @@ jobs:
 
       # - name: Switch to dist directory
       #   run: |
-      #     cd ./dist/angular-formio
+      #     cd ./dist/angular-form
       #     ls -R .
 
       - name: Prepare version for publish
         id: prep
-        working-directory: ./dist/angular-formio
+        working-directory: ./dist/angular-form
         run: |
           # Extract the pull request number and the short SHA of the commit
           PR_NUMBER=$(echo ${{ github.event.number }})
@@ -213,18 +213,18 @@ jobs:
           echo "Version to publish: $NEW_VERSION"
 
       - name: Configure Git user
-        working-directory: ./dist/angular-formio
+        working-directory: ./dist/angular-form
         run: |
           git config --global user.email "pkgbot@form.io"
           git config --global user.name "pkgbot"
 
       - name: Add npm token to .npmrc
-        working-directory: ./dist/angular-formio
+        working-directory: ./dist/angular-form
         run: |
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
 
       - name: Publish to npm
-        working-directory: ./dist/angular-formio
+        working-directory: ./dist/angular-form
         run: |
           npm version $NEW_VERSION
           yarn publish --tag=dev

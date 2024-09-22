@@ -3,30 +3,30 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-formio": {
+    "angular-form": {
       "projectType": "library",
-      "root": "projects/angular-formio",
-      "sourceRoot": "projects/angular-formio/src",
+      "root": "projects/angular-form",
+      "sourceRoot": "projects/angular-form/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/angular-formio/tsconfig.lib.json",
-            "project": "projects/angular-formio/ng-package.json"
+            "tsConfig": "projects/angular-form/tsconfig.lib.json",
+            "project": "projects/angular-form/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-formio/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-form/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/angular-formio/src/test.ts",
-            "tsConfig": "projects/angular-formio/tsconfig.spec.json",
-            "karmaConfig": "projects/angular-formio/karma.conf.js"
+            "main": "projects/angular-form/src/test.ts",
+            "tsConfig": "projects/angular-form/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-form/karma.conf.js"
           }
         }
       }

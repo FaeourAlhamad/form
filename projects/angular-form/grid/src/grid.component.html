@@ -1,0 +1,18 @@
+<ng-template #headerTemplate></ng-template>
+<ng-template #bodyTemplate></ng-template>
+<ng-template #footerTemplate></ng-template>
+<div class="form-grid">
+  <form-alerts [alerts]="alerts"></form-alerts>
+  <table class="table table-bordered table-striped table-hover">
+    <ng-container *ngIf="initialized && [footerPositions.top, footerPositions.both].indexOf(footerPosition) !== -1"
+      [ngTemplateOutlet]="footer.template" [ngTemplateOutletContext]="{ position: footerPositions.top, label: label }">
+    </ng-container>
+    <ng-container *ngIf="initialized"
+      [ngTemplateOutlet]="header.template"></ng-container>
+    <form-loader [isLoading]="isLoading"></form-loader>
+    <ng-container *ngIf="initialized" [ngTemplateOutlet]="body.template"></ng-container>
+    <ng-container *ngIf="initialized && [footerPositions.bottom, footerPositions.both].indexOf(footerPosition) !== -1"
+      [ngTemplateOutlet]="footer.template" [ngTemplateOutletContext]="{ position: footerPositions.bottom, label: label }">
+    </ng-container>
+  </table>
+</div>
